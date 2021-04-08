@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="css/Search.css">
   </head>
   <body>
-    <?php include 'header.inc.php' ?>
+    <?php include 'js/header.inc.php' ?>
   </body>
 </html>

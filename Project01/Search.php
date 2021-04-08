@@ -8,7 +8,7 @@
     <script src="js/LoggedInHomePage.js"></script>
   </head>
   <body>
-    <img class="centered" src="images/Logo3.png" alt="Logo">
+    <?php include 'js/header.inc.php' ?>
     <form class="roundedSearchBox">
       <input id="input" class="noBorder" type="text" name="search" value="" placeholder="Search for Books/Movies/Pictures...">
     </form>

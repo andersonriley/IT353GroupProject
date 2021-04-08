@@ -4,12 +4,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/LoggedInHomePage.css">
     <title></title>
-    <script src=js/Featured.js>
-
-    </script>
+    <script src=js/Featured.js></script>
   </head>
   <body>
-    <?php include "js/TopNav.php"; ?>
+    <?php include "js/header.inc.php"; ?>
 
       <h2>Featured Films</h2>
       <div class='featuredFilm'>

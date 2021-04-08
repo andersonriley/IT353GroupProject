@@ -1,0 +1,36 @@
+h3 {
+  margin:  0;
+  font-size:  110%;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.bottomPage {
+  position:absolute;
+  bottom:0;
+  padding-bottom: 5px;
+}
+.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.imgcontainer{
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.padded {
+  padding:20px 30px 40px 30px;
+  background-color: #ededed;
+  border-radius: 20px;
+  margin: 140px;
+}
+.userClass {
+  width:100%;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

@@ -1,0 +1,83 @@
+  h3 {
+    margin:  0;
+    font-size:  110%;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  .loginButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 26px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .newAccountButton {
+    background-color: #44c9db;
+    color: white;
+    padding: 10px 26px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  a:hover {
+    opacity: 0.8;
+    color: black;
+  }
+  .bottomPage {
+    position:absolute;
+    bottom:0;
+    padding-bottom: 5px;
+  }
+  .middlePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 400px;
+  }
+  .avatar {
+    width: 50%;
+    border-radius: 50%;
+  }
+  .imgcontainer{
+    text-align: center;
+    margin: 10px 0 12px 0;
+  }
+  .userClass {
+    width:100%;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .topPadding {
+    padding-top: 5px;
+  }
+  .padded {
+    padding:30px 30px 40px 30px;
+    background-color: #ededed;
+    border-radius: 20px;
+    margin: 140px;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 130%;
+  }
+  .alignRight {
+    float: right;
+  }

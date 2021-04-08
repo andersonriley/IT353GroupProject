@@ -10,7 +10,7 @@ function display() {
 
   $.get(url, data).done(function(response){
     $("#movies")
-    .html("<a href="ReviewPage.php"><img width=250 src=" + response.Poster + "/></a><p>Title:<p class=indent>" + response.Title + "</p><p>Description:<p class=indent>" + response.Plot + "</p>")
+    .html("<img width=250 src=" + response.Poster + "/><p>Title:<p class=indent>" + response.Title + "</p><p>Description:<p class=indent>" + response.Plot + "</p>")
   })
   .fail(function(jqXHR){
     alert("Error" + jqXHR.status);

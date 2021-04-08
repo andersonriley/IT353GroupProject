@@ -65,3 +65,11 @@ li a:hover {
 .floatRightPls {
   float: right;
 }
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3px;
+  width:100px;
+  height:45px;
+}

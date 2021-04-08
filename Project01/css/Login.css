@@ -35,8 +35,8 @@
   }
   .bottomPage {
     position:absolute;
-    bottom:0;
-    padding-bottom: 5px;
+    top:0;
+    padding-top: 5px;
   }
   .middlePage {
     display: flex;

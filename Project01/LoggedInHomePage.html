@@ -2,20 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Search Bar thing</title>
     <link rel="stylesheet" href="css/LoggedInHomePage.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/LoggedInHomePage.js"></script>
+    <title></title>
+    <script src=js/Featured.js>
+
+    </script>
   </head>
   <body>
-    <img class="centered" src="images/Logo3.png" alt="Logo">
-    <form class="roundedSearchBox">
-      <input id="input" class="noBorder" type="text" name="search" value="" placeholder="Search for Books/Movies/Pictures...">
-    </form>
-    <button id="display">Go</button>
-    <div id="movies"></div>
+    <?php include "js/TopNav.php"; ?>
+
+      <h2>Featured Films</h2>
+      <div class='featuredFilm'>
+        <img class='featuredList' src="images/FeaturedMovie1.jpg" alt="KingKong">
+        <img class='featuredList' src="images/FeaturedMovie2.jpg" alt="Joker">
+        <img class='featuredList' src="images/FeaturedMovie3.jpg" alt="FordvsFerrari">
+      </div>
+      <h2>Featured Books</h2>
+      <div class='featuredBook'>
+        <img class='featuredList' src="images/FeaturedBook1.jpg" alt="Harry Potter">
+        <img class='featuredList' src="images/FeaturedBook2.jpg" alt="Hunger Games">
+        <img class='featuredList' src="images/FeaturedBook3.jpg" alt="Alchemist">
+      </div>
+      <h2>Featured Images</h2>
+      <div class='featuredPicture'>
+        <img class='featuredList' src="images/FeaturedImage1.jpg" alt="Hunger Games">
+        <img class='featuredList' src="images/FeaturedImage2.jpg" alt="Hunger Games">
+        <img class='featuredList' src="images/FeaturedImage3.jpg" alt="Hunger Games">
+      </div>
     <footer>
-      <a href="HomePage.html" class="bottomPage">Back</a>
     </footer>
   </body>
 </html>

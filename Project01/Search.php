@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Search Bar thing</title>
+    <title>Search Bar Page</title>
     <link rel="stylesheet" href="css/Search.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/LoggedInHomePage.js"></script>

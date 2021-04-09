@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/LoggedInHomePage.css">
-    <title></title>
+    <title>Featured Page</title>
     <script src=js/Featured.js></script>
   </head>
   <body>

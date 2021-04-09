@@ -1,5 +1,5 @@
 h3 {
-  margin:  0;
+  margin: 0;
   font-size:  110%;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -23,6 +23,7 @@ h3 {
   background-color: #ededed;
   border-radius: 20px;
   margin: 140px;
+  min-width: 300px;
 }
 .userClass {
   width:100%;
@@ -33,4 +34,32 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+.createAccount {
+  background-color: #44c9db;
+  color: white;
+  padding: 10px 26px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+a {
+  text-decoration: none;
+  font-size: 130%;
+}
+a:hover {
+  opacity: 0.8;
+  color: black;
+}
+.loginButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
 }

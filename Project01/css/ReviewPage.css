@@ -1,0 +1,5 @@
+.border {
+  border: solid black 2px;
+  padding-left: 5px;
+  margin: 10px;
+}

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Review Page</title>
   <link rel="stylesheet" href="css/ReviewPage.css">
 </head>
@@ -30,8 +32,8 @@
       <p>Rating: 10/10</p>
       <p>Comment: My goodness, I lost my kids</p>
     </div>
-    <h1>Write a Review</h1>
-    <button id="myBtn">Open Modal</button>
+    <h1>Write a Review <button id="myBtn">Write Review</button></h1>
+
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
@@ -39,7 +41,8 @@
       <!-- Modal content -->
       <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
+      <textarea name="name" rows="8" cols="60"></textarea>
+      <input type="submit" name="submitRev" value="Submit Review">
       </div>
 
     </div>
@@ -52,7 +55,7 @@
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-    
+
     // When the user clicks the button, open the modal
     btn.onclick = function() {
       modal.style.display = "block";

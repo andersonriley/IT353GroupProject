@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/ReviewPage.js"></script>
   <title>Review Page</title>
   <link rel="stylesheet" href="css/ReviewPage.css">
 </head>
@@ -11,26 +13,26 @@
   <?php include 'js/header.inc.php' ?>
   <main>
     <h1>Sample Reviews</h1>
-    <h3>Movies and Books</h3>
     <div class="border">
       <p>Title: Bee Movie</p>
       <p>Reviewed by: Anonymous</p>
       <p>Rating: 10/10</p>
       <p>Comment: I watch this movie every day before work!</p>
     </div>
-    <h3>Pictures</h3>
     <div class="border">
       <p>Genre: Nature</p>
       <p>Reviewed by: Brooklyn Nash</p>
       <p>Rating: 8/10</p>
       <p>Comment: Could use more sunlight :()</p>
     </div>
-    <h3>Museums</h3>
     <div class="border">
-      <p>Name: Smithsonian</p>
+      <p>Title: </p>
       <p>Reviewed by: Anonymous</p>
       <p>Rating: 10/10</p>
       <p>Comment: My goodness, I lost my kids</p>
+    </div>
+    <div id='newReview'>
+      <?php include  ?>
     </div>
     <h1>Write a Review <button id="myBtn">Write Review</button></h1>
 
@@ -39,11 +41,20 @@
     <div id="myModal" class="modal">
 
       <!-- Modal content -->
-      <div class="modal-content">
+      <form onsubmit="display()" id='modelBox' class="modal-content">
         <span class="close">&times;</span>
-      <textarea name="name" rows="8" cols="60"></textarea>
-      <input type="submit" name="submitRev" value="Submit Review">
-      </div>
+        <select id='category'>
+          <option>Movie</option>
+          <option>Book</option>
+          <option>Picture</option>
+          <option>Museum</option>
+        </select>
+        <br><input id='title' type="text" name="" value="" placeholder="Title">
+        <br><input id='username' type="text" name="" value="" placeholder="Username">
+        <br><input id='rating' type="number" min="0" max="10.0" name="GPA" placeholder="Rating"/>
+        <br><input id='comment' type="text" name="" value="" placeholder="Enter Comment (optional)">
+        <input type="submit" value="Submit Review">
+      </form>
 
     </div>
     <script>

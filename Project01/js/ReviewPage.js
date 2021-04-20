@@ -18,21 +18,23 @@
 
 // TRY 2
 
-
 function addSampleReview() {
   var sampleCat = $("#sampleCategory").val();
   var sampleTitle = $("#sampleTitle").val();
   var sampleUser = $("#sampleUsername").val();
   var sampleRating = $("#sampleRating").val();
   var sampleComment = $("#sampleComment").val();
-
-  $("#newReview").append("<div class='border'><h3>" + sampleCat + "</h3></div>");
-
+  if (sampleComment == null || sampleComment == "") {
+    $("#newReview").append("<div class='border'><h3>" + sampleCat + "</h3><p>Title: "+ sampleTitle +"</p><p>Reviewed by: "+ sampleUser +"</p><p>Rating: "+ sampleRating +"</p></div>");
+  }else {
+    $("#newReview").append("<div class='border'><h3>" + sampleCat + "</h3><p>Title: "+ sampleTitle +"</p><p>Reviewed by: "+ sampleUser +"</p><p>Rating: "+ sampleRating +"</p><p>Comment: "+ sampleComment +"</p></div>");
+  }
 }
-//
-// $(document).ready(function(){
-//   $("#newReview").on('click', addSampleReview);
-// })
+
+$(document).ready(function(){
+  $("#sampleDisplay").on('click', addSampleReview);
+})
+
 
 
 
@@ -54,7 +56,7 @@ function addSampleReview() {
 
 // $(document).ready(function(){
 //   $("#newReview").on('click', addSampleReview);
-// })
+// });
 
 
 

@@ -7,8 +7,8 @@ h3 {
 }
 .bottomPage {
   position:absolute;
-  bottom:0;
-  padding-bottom: 5px;
+  top:0;
+  padding-top:5px;
 }
 .avatar {
   width: 40%;
@@ -24,6 +24,7 @@ h3 {
   border-radius: 20px;
   margin: 140px;
   min-width: 300px;
+  max-width: 400px;
 }
 .userClass {
   width:100%;

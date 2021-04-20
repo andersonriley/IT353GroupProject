@@ -13,7 +13,7 @@
       <input id="input" class="noBorder" type="text" name="search" value="" placeholder="Search for Books/Movies/Pictures...">
     </form>
     <button id="display">Go</button>
-    <div id="movies"></div>
+    <div id="output"></div>
     <footer>
       <a href="HomePage.html" class="bottomPage">Back</a>
     </footer>

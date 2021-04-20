@@ -17,8 +17,9 @@
 
 <!-- START TRY 2 -->
 
+<!-- onsubmit="addSampleReview()"  -->
 
-    <form onsubmit="addSampleReview()" class="sampleReview" method="post">
+    <form class="sampleReview" method="post">
       <select id='sampleCategory'>
         <option>Movie</option>
         <option>Book</option>
@@ -27,7 +28,7 @@
       </select>
       <br><input id='sampleTitle' type="text" name="" value="" placeholder="Title">
       <br><input id='sampleUsername' type="text" name="" value="" placeholder="Username">
-      <br><input id='sampleRating' type="number" min="0" max="10.0" name="GPA" placeholder="Rating"/>
+      <br><input id='sampleRating' type="number" min="0" max="10" name="" placeholder="Rating"/> /10
       <br><input id='sampleComment' type="text" name="" value="" placeholder="Enter Comment (optional)">
       <button id="sampleDisplay">Submit</button>
     </form>
@@ -35,8 +36,8 @@
 
 <!-- END TRY 2 -->
 
-
-    <div class="border">
+  <!-- sample reviews -->
+    <!-- <div class="border">
       <h3>Movie</h3>
       <p>Title: Bee Movie</p>
       <p>Reviewed by: Anonymous</p>
@@ -56,8 +57,11 @@
       <p>Reviewed by: Anonymous</p>
       <p>Rating: 10/10</p>
       <p>Comment: My goodness, I lost my kids</p>
-    </div>
+    </div> -->
+
+
     <div id='newReview'>
+
 
 
 <!-- new review is added here -->
@@ -91,7 +95,7 @@
 
 
     </div>
-    <script>
+    <!-- <script>
     // Get the modal
     var modal = document.getElementById("myModal");
 
@@ -117,7 +121,7 @@
         modal.style.display = "none";
       }
     }
-    </script>
+    </script> -->
   </main>
   <?php include 'js/footer.inc.php' ?>
 </body>

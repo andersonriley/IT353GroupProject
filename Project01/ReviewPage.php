@@ -30,7 +30,7 @@
 
 <!-- These are sample reviews -->
 
-    <div class="border">
+    <!-- <div class="border">
       <h3>Movie</h3>
       <p>Title: Bee Movie</p>
       <p>Reviewed by: Anonymous</p>
@@ -50,7 +50,7 @@
       <p>Reviewed by: Anonymous</p>
       <p>Rating: 10/10</p>
       <p>Comment: My goodness, I lost my kids</p>
-    </div>
+    </div> -->
 
 <!-- new review is added here -->
 

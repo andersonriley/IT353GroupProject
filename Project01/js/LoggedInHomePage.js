@@ -60,7 +60,7 @@ function displayMuseum() {
     if (response.records[0].imagecount > 0) {
       $("#output").append("<h1>Museum</h1><img alt='No Image Available' width=250 src=" + response.records[0].images[0].baseimageurl + "/><br><p>Title: "+ response.records[0].images[0].copyright +"</p><p>Description: "+ response.records[0].images[0].description +"</p>")
     } else {
-      $("#output").append("<h1>Museum</h1><p>No Image Available<br>Description "+ response.records[0].title +"</p>")
+      $("#output").append("<h1>Museum</h1><p>No Image Available<br>Description: "+ response.records[0].title +"</p>")
     }
   })
   .fail(function(jqXHR){

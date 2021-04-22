@@ -47,7 +47,7 @@
   }
   .avatar {
     width: 50%;
-    border-radius: 50%;
+    height: 70px;
   }
   .imgcontainer{
     text-align: center;

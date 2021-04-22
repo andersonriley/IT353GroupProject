@@ -17,6 +17,12 @@
   margin-left: 8px;
 }
 
+.featuredMuseumList {
+  max-height: 275px;
+  width: 260px;
+  margin-left: 8px;
+}
+
 .moveRight {
   position: absolute;
   right: 0;

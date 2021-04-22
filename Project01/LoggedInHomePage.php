@@ -23,15 +23,15 @@
       </div>
       <h2>Featured Images</h2>
       <div class='featuredPicture'>
-        <img class='featuredList' src="images/FeaturedImage1.jpg" alt="Hunger Games">
-        <img class='featuredList' src="images/FeaturedImage2.jpg" alt="Hunger Games">
-        <img class='featuredList' src="images/FeaturedImage3.jpg" alt="Hunger Games">
+        <img class='featuredMuseumList' src="images/FeaturedImage1.jpg" alt="Hunger Games">
+        <img class='featuredMuseumList' src="images/FeaturedImage2.jpg" alt="Hunger Games">
+        <img class='featuredMuseumList' src="images/FeaturedImage3.jpg" alt="Hunger Games">
       </div>
       <h2>Featured Museum Pieces</h2>
       <div class="featuredMuseum">
-        <img class='featuredList' src="images/FeaturedMuseum1.jpg" alt="Beautiful">
-        <img class='featuredList' src="images/FeaturedMuseum2.jpg" alt="Marvelous">
-        <img class='featuredList' src="images/FeaturedMuseum3.jpg" alt="Handsome">
+        <img class='featuredMuseumList' src="images/FeaturedMuseum1.jpg" alt="Beautiful">
+        <img class='featuredMuseumList' src="images/FeaturedMuseum2.jpg" alt="Marvelous">
+        <img class='featuredMuseumList' src="images/FeaturedMuseum3.jpg" alt="Handsome">
       </div>
 
       <?php include 'js/footer.inc.php' ?>

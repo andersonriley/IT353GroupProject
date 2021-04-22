@@ -18,7 +18,6 @@
 
       </div>
     </div>
-    <footer>
-    </footer>
+    <?php include 'js/footer.inc.php' ?>  
   </body>
 </html>

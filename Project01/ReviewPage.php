@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +13,7 @@
   <main>
     <h1>Sample Reviews</h1>
 
-
-<!-- START TRY 2 -->
-
-<!-- onsubmit="addSampleReview()"  -->
-
+<!-- These are the boxes the person can fill out to add a review -->
     <form class="sampleReview" method="post">
       <select id='sampleCategory'>
         <option>Movie</option>
@@ -33,10 +28,8 @@
       <button id="sampleDisplay">Submit</button>
     </form>
 
+<!-- These are sample reviews -->
 
-<!-- END TRY 2 -->
-
-  <!-- sample reviews -->
     <div class="border">
       <h3>Movie</h3>
       <p>Title: Bee Movie</p>
@@ -59,41 +52,9 @@
       <p>Comment: My goodness, I lost my kids</p>
     </div>
 
-
-    <div id='newReview'>
-
-
-
 <!-- new review is added here -->
 
-
-    </div>
-
-
-<!-- START TRY 1 -->
-
-
-    <!-- <div id="myModal" class="modal">
-      <form onsubmit="addReview()" id='modelBox' class="modal-content">
-        <span class="close">&times;</span>
-        <select id='category'>
-          <option>Movie</option>
-          <option>Book</option>
-          <option>Picture</option>
-          <option>Museum</option>
-        </select>
-        <br><input id='title' type="text" name="" value="" placeholder="Title">
-        <br><input id='username' type="text" name="" value="" placeholder="Username">
-        <br><input id='rating' type="number" min="0" max="10.0" name="GPA" placeholder="Rating"/>
-        <br><input id='comment' type="text" name="" value="" placeholder="Enter Comment (optional)">
-        <input type="submit" value="submitReview">
-      </form>
-    </div> -->
-
-
-<!-- END TRY 1 -->
-
-
+    <div id='newReview'></div>
   </main>
   <?php include 'js/footer.inc.php' ?>
 </body>

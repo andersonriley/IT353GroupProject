@@ -27,8 +27,6 @@
         <img class='featuredList' src="images/FeaturedImage2.jpg" alt="Hunger Games">
         <img class='featuredList' src="images/FeaturedImage3.jpg" alt="Hunger Games">
       </div>
-    <footer>
       <?php include 'js/footer.inc.php' ?>
-    </footer>
   </body>
 </html>

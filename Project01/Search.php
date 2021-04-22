@@ -9,13 +9,16 @@
   </head>
   <body>
     <?php include 'js/header.inc.php' ?>
-    <form class="roundedSearchBox">
+    <br><form class="roundedSearchBox">
       <input id="input" class="noBorder" type="text" name="search" value="" placeholder="Search for Books/Movies/Pictures...">
     </form>
     <button id="display">Go</button>
-    <div id="output"></div>
+    <br><div id="temp">
+      <div id='output'>
+
+      </div>
+    </div>
     <footer>
-      <a href="HomePage.html" class="bottomPage">Back</a>
     </footer>
   </body>
 </html>
